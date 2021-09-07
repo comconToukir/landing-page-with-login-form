@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0;
+            overflow: hidden;
+        }
+        .illustration{
+            height: 100vh;
+            /* width: 100vw; */
+            text-align: center;
+            background-image: url(pink-purple-green-01.svg);
+            background-repeat: no-repeat;
+            background-size: 1920px; /*background image er width max j screen e set kora hobe tar shoman hote hobe*/
+            background-position: center;
+            border: 0;
+            border-radius: 0;
+        }
+        .card{
+            height: 600px;
+            width: 420px;
+            border: none;
+            border-radius: 20px;
+            overflow: hidden;
+            font-family: 'Montserrat', sans-serif;
+            box-shadow: 0px 10px 15px rgba(68, 2, 143, 0.246);
+        }
+        .card-body h6{
+            color: #B5B837;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        .card-body h2{
+            color: rgb(0, 0, 0);
+            letter-spacing: 4px;
+            font-weight: 800;
+        }
+        .input-group{
+            width: 85%;
+        }
+        .form-control{
+            color: rgb(0, 0, 0);
+            width: 400px;
+            border: none;
+            border-bottom: 2px solid #EE3EE2;
+            border-radius: 0;
+        }
+        .form-control:focus{
+            border-color: #B5B837;
+            box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0)
+        }
+        .form-control::placeholder{
+            color: rgb(0, 0, 0);
+            font-size: 15px;
+            letter-spacing: 1px;
+        }
+        .remember-check{
+            font-family: 'Exo 2', sans-serif;
+            font-size: 12px;              
+        }
+        .remember-check .form-check{
+            color: #243762;
+        }
+        .remember-check a{
+            text-decoration: none;
+            color: #243762;
+        }
+        .login-btn{
+            color: white;
+            width: 120px;
+            background-color: #B5B837;
+            border-radius: 50px;
+            font-weight: 600;
+            letter-spacing: 2px;
+        }
+        .login-btn:focus{
+            border-color: #B5B837;
+            box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0);
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="illustration d-flex">
+
+        <div class="card w-85 mx-auto my-auto">
+
+            <div class="card-body mt-5">
+
+                <h2 class="card-title mt-5 mb-3">USER LOGIN</h2>
+                <h6>Welcome to the website</h6>
+                <div class="login-form mt-4">
+
+                <div class="input-group flex-nowrap mx-auto mb-4 mt-3 px-4">
+                    <input type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="addon-wrapping">
+                </div>
+
+                <div class="input-group flex-nowrap mx-auto mb-3 px-4">
+                    <input type="text" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="addon-wrapping">
+                </div>
+
+                <div class="d-inline-flex justify-content-around remember-check mt-2">
+
+                    <div class="form-check col-6 ms-1">
+
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label me-5" for="flexCheckDefault">
+                            Remember
+                        </label>
+                        </div>
+                        <a class="col-6" href="http://">Forgot your password?</a>
+                </div>
+                <input class="login-btn btn d-block mt-4 mb-3 mx-auto" type="submit" value="LOGIN">
+                <div class="">
+                    <a href="" style="text-decoration: none; color: #EE3EE2; font-size: 12px;">Create Account</a>
+                </div>
+                </div>                  
+            </div>
+            </div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+</body>
+</html>
